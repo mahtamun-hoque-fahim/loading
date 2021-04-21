@@ -1,0 +1,55 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: Poppins;
+}
+body{
+  background: #0D101E;
+  animation: center .5s infinite;
+}
+main{
+  rotate: 90deg;
+}
+div.master-div{
+  background:linear-gradient(110deg,#01e1ff,rgb(0, 28, 155));
+  height:10vh;
+  width: 10vh;
+  margin: auto;
+  transition:;
+  /* text-align: center; */
+  animation: round 2s 1s infinite;
+}
+@keyframes round {
+
+  0%{
+    rotate: 2deg;
+  }
+  50%{
+    border-radius:50%;
+    rotate: 90deg;
+    padding: 10vh 10vh ;
+  }
+  100%{
+    border-radius: 5px;
+  }
+
+}
+
+.child-div1{
+  background:linear-gradient(110deg,#01e1ff,rgb(0, 28, 155));
+  height:5vh;
+  width: 5vh;
+  margin: auto;
+  /* text-align: center; */
+  animation: round 2s infinite;
+}
+.child-div2{
+  background:linear-gradient(110deg,#01e1ff,rgb(0, 28, 155));
+  height:5vh;
+  width: 5vh;
+  margin: auto;
+  /* text-align: center; */
+  animation: round 2s infinite;
+}
